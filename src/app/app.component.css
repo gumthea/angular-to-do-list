@@ -1,0 +1,48 @@
+.task-container {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .task-form input, .task-form select {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  .task-form button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .filter-container {
+    margin-bottom: 10px;
+  }
+  
+  .filter-container label {
+    margin-right: 10px;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .task-list li.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
